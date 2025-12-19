@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Web3 Portfolio – NFT Minting Demo
 
-## Getting Started
+Live demo:  
+👉 https://web3-portfolio-6sat.vercel.app/
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 About This Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a **Web3 portfolio project** that demonstrates a complete NFT workflow:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Wallet connection (MetaMask)
+- Smart contract interaction
+- NFT minting on Ethereum **Sepolia testnet**
+- Dynamic NFT metadata stored on **IPFS**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is built as a **real, working Web3 application**, not just a static landing page.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Live Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔗 Connect wallet using MetaMask
+- 🪙 Mint ERC-721 NFT on Sepolia
+- 📦 NFT metadata served from IPFS
+- 🔍 View transactions on Etherscan
+- 🧩 Clean and simple Web3 UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧱 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend
+- **Next.js (App Router)**
+- **TypeScript**
+- **wagmi**
+- **RainbowKit**
+- **Tailwind CSS**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Blockchain
+- **Solidity (ERC-721)**
+- **Hardhat**
+- **ethers.js**
+- **OpenZeppelin**
+
+### Infrastructure
+- **Ethereum Sepolia Testnet**
+- **IPFS (Pinata)**
+- **Vercel (Deployment)**
+
+---
+
+## 🖼 NFT Architecture
+
