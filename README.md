@@ -48,6 +48,53 @@ The project is built as a **real, working Web3 application**, not just a static 
 - **IPFS (Pinata)**
 - **Vercel (Deployment)**
 
+## 🖼 NFT Architecture (NFT Mint)
+- **Smart Contract (ERC-721)**
+- **tokenURI (dynamic)**
+- **IPFS Metadata (JSON)**
+- **IPFS Image**
+
+
+Each minted NFT:
+- Has a unique `tokenId`
+- Uses dynamic `tokenURI`
+- Points to metadata hosted on IPFS
+- Displays correctly in wallets like MetaMask
+
+---
+
+## 📄 Smart Contract
+
+- Network: **Ethereum Sepolia**
+- Standard: **ERC-721**
+- Max Supply: **Limited**
+- Metadata: **IPFS-based**
+- Mint: Public (demo purpose)
+
+> This contract is deployed and actively used by the frontend demo.
+
+---
+
+## 🧪 How to Use (Demo)
+
+1. Open the live site  
+   👉 https://web3-portfolio-6sat.vercel.app/
+2. Switch MetaMask network to **Sepolia**
+3. Connect your wallet
+4. Click **Mint NFT**
+5. Confirm transaction
+6. View NFT in MetaMask or Etherscan
+
+---
+
+## 🛠 Local Development
+
+```bash
+git clone https://github.com/your-username/web3-portfolio.git
+cd web3-portfolio
+npm install
+npm run dev
+
 ---
 
 ## 🖼 NFT Architecture
