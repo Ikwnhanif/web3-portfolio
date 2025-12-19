@@ -90,7 +90,7 @@ Each minted NFT:
 ## 🛠 Local Development
 
 ```bash
-git clone https://github.com/your-username/web3-portfolio.git
+git clone https://github.com/ikwnhanif/web3-portfolio.git
 cd web3-portfolio
 npm install
 npm run dev
