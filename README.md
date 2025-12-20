@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Web3 Portfolio – NFT Minting Demo
 
-## Getting Started
+Live demo:  
+👉 https://web3-portfolio-6sat.vercel.app/
 
-First, run the development server:
+---
+
+## 📌 About This Project
+
+This is a **Web3 portfolio project** that demonstrates a complete NFT workflow:
+
+- Wallet connection (MetaMask)
+- Smart contract interaction
+- NFT minting on Ethereum **Sepolia testnet**
+- Dynamic NFT metadata stored on **IPFS**
+
+The project is built as a **real, working Web3 application**, not just a static landing page.
+
+---
+
+## 🚀 Live Features
+
+- 🔗 Connect wallet using MetaMask
+- 🪙 Mint ERC-721 NFT on Sepolia
+- 📦 NFT metadata served from IPFS
+- 🔍 View transactions on Etherscan
+- 🧩 Clean and simple Web3 UI
+
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+- **Next.js (App Router)**
+- **TypeScript**
+- **wagmi**
+- **RainbowKit**
+- **Tailwind CSS**
+
+### Blockchain
+- **Solidity (ERC-721)**
+- **Hardhat**
+- **ethers.js**
+- **OpenZeppelin**
+
+### Infrastructure
+- **Ethereum Sepolia Testnet**
+- **IPFS (Pinata)**
+- **Vercel (Deployment)**
+
+## 🖼 NFT Architecture (NFT Mint)
+- **Smart Contract (ERC-721)**
+- **tokenURI (dynamic)**
+- **IPFS Metadata (JSON)**
+- **IPFS Image**
+
+
+Each minted NFT:
+- Has a unique `tokenId`
+- Uses dynamic `tokenURI`
+- Points to metadata hosted on IPFS
+- Displays correctly in wallets like MetaMask
+
+---
+
+## 📄 Smart Contract
+
+- Network: **Ethereum Sepolia**
+- Standard: **ERC-721**
+- Max Supply: **Limited**
+- Metadata: **IPFS-based**
+- Mint: Public (demo purpose)
+
+> This contract is deployed and actively used by the frontend demo.
+
+---
+
+## 🧪 How to Use (Demo)
+
+1. Open the live site  
+   👉 https://web3-portfolio-6sat.vercel.app/
+2. Switch MetaMask network to **Sepolia**
+3. Connect your wallet
+4. Click **Mint NFT**
+5. Confirm transaction
+6. View NFT in MetaMask or Etherscan
+
+---
+
+## 🛠 Local Development
 
 ```bash
+git clone https://github.com/ikwnhanif/web3-portfolio.git
+cd web3-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖼 NFT Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
