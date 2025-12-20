@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 
 async function main() {
   const baseURI =
-    "ipfs://bafybeibstwrtqtcoyed365dhr7dfrin6lap6yckmqwljqmuwn7ekimgi4q/";
+    "ipfs://bafybeielxh7cc5j7aoczogt2wmshqasnrzsft34ipb37fqd3tqhmaefdhu/";
 
   const NFT = await ethers.getContractFactory("PortfolioNFT");
 
